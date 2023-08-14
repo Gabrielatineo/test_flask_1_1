@@ -18,6 +18,3 @@
 
 ---
 
-|Alias  | 
-|----------------------------------------------------------------------------------------------------
-| foo, baz, charlie, qux, delta, quux, echo, corge, grault, garply, waldo, fred, plugh, xyzzy, thud, foobar |
