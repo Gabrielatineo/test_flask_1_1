@@ -11,15 +11,12 @@ def read():
     return {"payload":"read successfully"
     }
 
+@app.route("/create", methods=["POST"])
+def create():
+    return {"payload":"create successfully"
+    }
+
+
 if __name__ == "main":
     app.run(debug=True)
 
-@app2.route("/create", methods=["POST"])
-def create():
-    userlist = request.args.get("usuario")
-    if userlist in LISTA:
-        return {
-            "payload": userlist
-        }
-    else:
-        return "no esta"
