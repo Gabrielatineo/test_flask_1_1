@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return {"payload":"welcome to my project"}
+    return {"payload":"hack-1 finished"}
 
 @app.route("/read")
 def read():
